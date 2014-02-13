@@ -37,17 +37,4 @@ public class AnataNoMachi2 {
 
 	}
 	
-	static void printField(Denwa instance){
-		System.out.print(instance.KAISYA);
-		System.out.print(" ");
-		System.out.print(instance.getKataban());
-		System.out.print(" ");
-		System.out.print(instance.getKeiyaku());
-		System.out.print(" ");
-		System.out.print(instance.getBangou());
-		System.out.print(" ");
-		System.out.print(instance.getRyokin());
-		System.out.println();
-	}
-
 }
