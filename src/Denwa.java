@@ -41,5 +41,9 @@ public class Denwa {
 		System.out.println("もしもし　－　はいはい");
 		this.ryokin = this.ryokin + this.TANKA;
 	}
+	
+	public void clearRyokin(){
+		this.ryokin = 0;
+	}
 
 }
