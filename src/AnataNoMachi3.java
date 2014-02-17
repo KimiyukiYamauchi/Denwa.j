@@ -29,12 +29,20 @@ public class AnataNoMachi3 {
 		System.out.println(taro.getBangou());
 		
 		//内線をかける(存在しない子機にもかけて、エラー確認）
+		for(int i=1; i<6; i++){
+			taro.naisen(i);
+		}
 		
 		// 子機の数を表示する
+		System.out.print("子機数＜変更前＞：");
+		System.out.println(taro.getKokisu());
 		
 		// 子機の数を変更する
+		taro.setKokisu(5);
 		
 		// 子機の数を表示する
+		System.out.print("子機数＜変更後＞：");
+		System.out.println(taro.getKokisu());
 		
 		System.out.print("会社名：");
 		System.out.println(taro.KAISYA);
