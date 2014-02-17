@@ -16,6 +16,7 @@ public class KokiDenwa extends Denwa {
 			int kokisu) {
 		super(keiyaku, bangou);
 		this.kokisu = kokisu; 
+		super.kataban = "KOKI-001";
 	} 
 	
 	public void naisen(int kokibangou){
