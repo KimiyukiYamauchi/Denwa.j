@@ -1,4 +1,4 @@
-import pack1.Denwa;
+import pack1.KokiDenwa;
 
 public class AnataNoMachi3 {
 
@@ -7,7 +7,7 @@ public class AnataNoMachi3 {
 	 */
 	public static void main(String[] args) {
 
-		Denwa taro = new Denwa("太郎", "012-1234-5678");
+		KokiDenwa taro = new KokiDenwa("太郎", "012-1234-5678", 3);
 
 		for(int i=0; i<3; i++){
 			taro.denwaSuru();
@@ -27,6 +27,14 @@ public class AnataNoMachi3 {
 		
 		System.out.print("電話番号＜変更後＞：");
 		System.out.println(taro.getBangou());
+		
+		//内線をかける(存在しない子機にもかけて、エラー確認）
+		
+		// 子機の数を表示する
+		
+		// 子機の数を変更する
+		
+		// 子機の数を表示する
 		
 		System.out.print("会社名：");
 		System.out.println(taro.KAISYA);
