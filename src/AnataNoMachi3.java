@@ -1,6 +1,6 @@
 import pack1.Denwa;
 
-public class AnataNoMachi2 {
+public class AnataNoMachi3 {
 
 	/**
 	 * @param args

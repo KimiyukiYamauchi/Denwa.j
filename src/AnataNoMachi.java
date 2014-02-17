@@ -1,3 +1,5 @@
+import pack1.Denwa;
+
 
 public class AnataNoMachi {
 
