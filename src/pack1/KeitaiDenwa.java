@@ -49,5 +49,17 @@ public class KeitaiDenwa extends Denwa {
 	public int getPacketRyokin() {
 		return packetRyokin;
 	}
+	
+	@Override
+	public void denwaSuru(){
+		System.out.print("アドレス帳で探しました --> ");
+		super.denwaSuru();
+	}
+	
+	@Override
+	public void clearRyokin(){
+		super.clearRyokin();
+		packetRyokin = 0;
+	}
 
 }
