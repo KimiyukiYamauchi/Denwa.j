@@ -20,6 +20,24 @@ public class KeitaiDenwa extends Denwa {
 		return this.packetRyokin;
 	}
 
+	public int mail(String joutai){
+		String msg = "メールを" + joutai + "しました";
+		System.out.println(msg);
+		this.packetRyokin = 
+				this.packetRyokin + PACKET_TANKA * 5;
+		return this.packetRyokin;
+	}
+
+	public int mail(String joutai, int kaisu){
+		String msg = "通目のメールを" + joutai + "しました";
+		for(int i=1; i<=kaisu; i++){
+			System.out.println(i + msg);
+		}
+		this.packetRyokin = 
+				this.packetRyokin + PACKET_TANKA * 5;
+		return this.packetRyokin;
+	}
+
 	public String getMailAddress() {
 		return mailAddress;
 	}
