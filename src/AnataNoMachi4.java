@@ -1,5 +1,4 @@
 import pack1.KeitaiDenwa;
-import pack1.KokiDenwa;
 
 public class AnataNoMachi4 {
 
